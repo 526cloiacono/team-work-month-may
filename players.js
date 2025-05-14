@@ -1,37 +1,66 @@
- const players = [
-    {
-        firstName:'Francisco',
-        lastName:'Lindor',
-        position:'SS',
-        age: '31',
-        photo: 'https://picsum.photos/200/300'
-    },
-    {
-        firstName:'Francisco',
-        lastName:'Lindor',
-        position:'SS',
-        age: '31',
-        photo: 'https://picsum.photos/200/300'
-    },
-    {
-        firstName:'Francisco',
-        lastName:'Lindor',
-        position:'SS',
-        age: '31',
-        photo: 'https://picsum.photos/200/300'
-    },
-    {
-        firstName:'Francisco',
-        lastName:'Lindor',
-        position:'SS',
-        age: '31',
-        photo: 'https://picsum.photos/200/300'
-    },
-    {
-        firstName:'Francisco',
-        lastName:'Lindor',
-        position:'SS',
-        age: '31',
-        photo: 'https://picsum.photos/200/300'
-    }
- ]
+const gorillaBattleRoster = [
+  // Frontline
+  { name: "Dwayne 'The Rock' Johnson", role: "frontline", skills: ["wrestling", "acting", "intimidation"] },
+  { name: "Shaquille O'Neal", role: "frontline", skills: ["basketball", "comedy", "size"] },
+  { name: "Mike Tyson", role: "frontline", skills: ["boxing", "biting"] },
+  { name: "John Cena", role: "frontline", skills: ["wrestling", "acting", "strength"] },
+  { name: "Jason Momoa", role: "frontline", skills: ["acting", "intensity", "fighting"] },
+  { name: "Terry Crews", role: "frontline", skills: ["acting", "strength", "enthusiasm"] },
+  { name: "Chris Hemsworth", role: "frontline", skills: ["acting", "combat", "godly strength"] },
+  { name: "Dave Bautista", role: "frontline", skills: ["wrestling", "acting", "muscle"] },
+  { name: "Zion Williamson", role: "frontline", skills: ["basketball", "strength", "agility"] },
+  { name: "Mark Wahlberg", role: "frontline", skills: ["acting", "boxing", "strength"] },
+  { name: "Brock Lesnar", role: "frontline", skills: ["wrestling", "UFC", "intimidation"] },
+  { name: "Khabib Nurmagomedov", role: "frontline", skills: ["wrestling", "submission holds", "strength"] },
+  { name: "Conor McGregor", role: "frontline", skills: ["boxing", "bravado", "trash talk"] },
+  { name: "Chuck Norris", role: "frontline", skills: ["martial arts", "strength", "legendary status"] },
+  { name: "Ronda Rousey", role: "frontline", skills: ["UFC", "judo", "strength"] },
+  { name: "Hulk Hogan", role: "frontline", skills: ["wrestling", "entertainment", "strength"] },
+  { name: "Ricky Gervais", role: "frontline", skills: ["comedy", "sarcasm", "quick wit"] },
+  { name: "Will Smith", role: "frontline", skills: ["acting", "martial arts", "charm"] },
+  { name: "Jackie Chan", role: "frontline", skills: ["martial arts", "stunts", "speed"] },
+  { name: "Vin Diesel", role: "frontline", skills: ["acting", "strength", "determination"] },
+  // Midline
+  { name: "Gordon Ramsay", role: "midline", skills: ["cooking", "yelling", "insults"] },
+  { name: "Joe Rogan", role: "midline", skills: ["commentary", "taekwondo", "podcasting"] },
+  { name: "Keanu Reeves", role: "midline", skills: ["acting", "martial arts", "being cool"] },
+  { name: "Ryan Reynolds", role: "midline", skills: ["acting", "comedy", "quick wit"] },
+  { name: "Jack Black", role: "midline", skills: ["comedy", "music", "acting"] },
+  { name: "Will Ferrell", role: "midline", skills: ["comedy", "acting", "awkwardness"] },
+  { name: "Kevin Hart", role: "midline", skills: ["comedy", "acting", "motivation"] },
+  { name: "Danny DeVito", role: "midline", skills: ["comedy", "acting", "being unpredictable"] },
+  { name: "Post Malone", role: "midline", skills: ["music", "vibes", "chill"] },
+  { name: "Snoop Dogg", role: "midline", skills: ["rapping", "chilling", "strategizing"] },
+  { name: "Chris Pratt", role: "midline", skills: ["acting", "comedy", "strength"] },
+  { name: "Tom Hanks", role: "midline", skills: ["acting", "emotional intelligence", "charm"] },
+  { name: "Paul Rudd", role: "midline", skills: ["acting", "humor", "strength"] },
+  { name: "Jason Statham", role: "midline", skills: ["combat", "stunts", "toughness"] },
+  { name: "Bruce Lee", role: "midline", skills: ["martial arts", "speed", "precision"] },
+  { name: "Ben Stiller", role: "midline", skills: ["comedy", "acting", "impressions"] },
+  { name: "Zach Galifianakis", role: "midline", skills: ["comedy", "improvisation", "awkwardness"] },
+  { name: "Seth Rogen", role: "midline", skills: ["acting", "comedy", "vibes"] },
+  { name: "Jonah Hill", role: "midline", skills: ["comedy", "acting", "awkwardness"] },
+  { name: "Charlie Day", role: "midline", skills: ["comedy", "acting", "chaos"] },
+  // Backline
+  { name: "Bill Nye", role: "backline", skills: ["science", "explanation", "teaching"] },
+  { name: "Neil deGrasse Tyson", role: "backline", skills: ["astrophysics", "space", "education"] },
+  { name: "Elon Musk", role: "backline", skills: ["engineering", "technology", "innovation"] },
+  { name: "Mark Rober", role: "backline", skills: ["engineering", "invention", "YouTube"] },
+  { name: "MrBeast", role: "backline", skills: ["philanthropy", "creativity", "YouTube"] },
+  { name: "Barack Obama", role: "backline", skills: ["public speaking", "diplomacy", "calmness"] },
+  { name: "PewDiePie", role: "backline", skills: ["YouTube", "commentary", "humor"] },
+  { name: "Jimmy Fallon", role: "backline", skills: ["comedy", "talk shows", "impressions"] },
+  { name: "Stephen Colbert", role: "backline", skills: ["satirical comedy", "political humor", "impressions"] },
+  { name: "Simu Liu", role: "backline", skills: ["acting", "martial arts", "comedy"] },
+  { name: "Bill Gates", role: "backline", skills: ["technology", "philanthropy", "strategizing"] },
+  { name: "Steve Jobs", role: "backline", skills: ["technology", "innovation", "visionary thinking"] },
+  { name: "Oprah Winfrey", role: "backline", skills: ["public speaking", "influence", "calmness"] },
+  { name: "Meryl Streep", role: "backline", skills: ["acting", "empathy", "diplomacy"] },
+  { name: "Taylor Swift", role: "backline", skills: ["music", "songwriting", "influence"] },
+  { name: "Lady Gaga", role: "backline", skills: ["music", "performance", "influence"] },
+  { name: "Justin Bieber", role: "backline", skills: ["music", "influence", "charm"] },
+  { name: "Ariana Grande", role: "backline", skills: ["music", "influence", "charm"] },
+  { name: "Beyoncé", role: "backline", skills: ["music", "influence", "power"] },
+  { name: "Ellen DeGeneres", role: "backline", skills: ["comedy", "hosting", "kindness"] }
+
+];
