@@ -17,6 +17,7 @@ col.innerHTML = `
             <h5 class="card-title mb-1"> ${p.name} </h5>
             <div class="badge badge-position badge-pos-${p.role}">${p.role}</div>
             <p class="small text-muted mb-0">Skills:<br>${p.skills}</p>
+             <button class="btn btn-primary mt-2 btn-task">Show Task</button>
         </div>
     </div> 
 
