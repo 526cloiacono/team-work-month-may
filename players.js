@@ -1,149 +1,181 @@
 const gorillaBattleRoster = [
   // Frontline (30)
-  {
-    name: "Dwayne 'The Rock' Johnson",
-    role: "frontline",
-    skills: ["wrestling", "acting", "intimidation"],
-    task: "Leads the charge with overwhelming strength and charisma.",
-  },
-  {
-    name: "Shaquille O'Neal",
-    role: "frontline",
-    skills: ["basketball", "comedy", "size"],
-    task: "Uses his size and humor to confuse and intimidate the gorilla.",
-  },
-  {
-    name: "Mike Tyson",
-    role: "frontline",
-    skills: ["boxing", "biting"],
-    task: "Throws powerful punches and uses his biting tactics to fend off attacks.",
-  },
-  {
-    name: "John Cena",
-    role: "frontline",
-    skills: ["wrestling", "acting", "strength"],
-    task: "Distracts the gorilla with his famous catchphrase and wrestling moves.",
-  },
-  {
-    name: "Jason Momoa",
-    role: "frontline",
-    skills: ["acting", "intensity", "fighting"],
-    task: "Channels Aquaman’s fierceness to intimidate the beast.",
-  },
-  {
-    name: "Terry Crews",
-    role: "frontline",
-    skills: ["acting", "strength", "enthusiasm"],
-    task: "Charges with unstoppable energy and muscle power.",
-  },
-  {
-    name: "Chris Hemsworth",
-    role: "frontline",
-    skills: ["acting", "combat", "godly strength"],
-    task: "Wields his 'Thor' hammer stance to intimidate and attack.",
-  },
-  {
-    name: "Dave Bautista",
-    role: "frontline",
-    skills: ["wrestling", "acting", "muscle"],
-    task: "Uses brute strength and wrestling skills to hold the line.",
-  },
-  {
-    name: "Zion Williamson",
-    role: "frontline",
-    skills: ["basketball", "strength", "agility"],
-    task: "Jumps and dodges with basketball agility to confuse the gorilla.",
-  },
-  {
-    name: "Mark Wahlberg",
-    role: "frontline",
-    skills: ["acting", "boxing", "strength"],
-    task: "Delivers sharp boxing combos to keep the gorilla off balance.",
-  },
-  {
-    name: "Brock Lesnar",
-    role: "frontline",
-    skills: ["wrestling", "UFC", "intimidation"],
-    task: "Uses MMA moves and aggression to dominate the fight.",
-  },
-  {
-    name: "Khabib Nurmagomedov",
-    role: "frontline",
-    skills: ["wrestling", "submission holds", "strength"],
-    task: "Locks in submission holds to immobilize the gorilla.",
-  },
-  {
-    name: "Conor McGregor",
-    role: "frontline",
-    skills: ["boxing", "bravado", "trash talk"],
-    task: "Taunts the gorilla to create openings for attack.",
-  },
-  {
-    name: "Chuck Norris",
-    role: "frontline",
-    skills: ["martial arts", "strength", "legendary status"],
-    task: "Uses legendary martial arts skills to intimidate and fight.",
-  },
-  {
-    name: "Ronda Rousey",
-    role: "frontline",
-    skills: ["UFC", "judo", "strength"],
-    task: "Throws precise judo throws to control the gorilla’s movements.",
-  },
-  {
-    name: "Hulk Hogan",
-    role: "frontline",
-    skills: ["wrestling", "entertainment", "strength"],
-    task: "Rallies the team with loud cheers and powerful wrestling.",
-  },
-  {
-    name: "Ricky Gervais",
-    role: "frontline",
-    skills: ["comedy", "sarcasm", "quick wit"],
-    task: "Distracts the gorilla with cutting sarcasm and wit.",
-  },
-  {
-    name: "Will Smith",
-    role: "frontline",
-    skills: ["acting", "martial arts", "charm"],
-    task: "Combines charm and martial arts to confuse the gorilla.",
-  },
-  {
-    name: "Jackie Chan",
-    role: "frontline",
-    skills: ["martial arts", "stunts", "speed"],
-    task: "Uses acrobatic stunts and fast moves to evade attacks.",
-  },
-  {
-    name: "Vin Diesel",
-    role: "frontline",
-    skills: ["acting", "strength", "determination"],
-    task: "Uses sheer determination and strength to hold ground.",
-  },
-  {
-    name: "Harrison Ford",
-    role: "frontline",
-    skills: ["acting", "marksmanship", "adventure"],
-    task: "Shoots precision shots to scare the gorilla without harm.",
-  },
-  {
-    name: "Gal Gadot",
-    role: "frontline",
-    skills: ["acting", "combat", "agility"],
-    task: "Uses Wonder Woman’s combat skills to fend off the beast.",
-  },
-  {
-    name: "Jason Statham",
-    role: "frontline",
-    skills: ["combat", "stunts", "toughness"],
-    task: "Delivers tough fight moves to keep the gorilla at bay.",
-  },
-  {
-    name: "Tom Hardy",
-    role: "frontline",
-    skills: ["acting", "combat", "intensity"],
-    task: "Channels intense focus to outmaneuver the gorilla.",
-  },
+ {
+  name: "Dwayne 'The Rock' Johnson",
+  role: "frontline",
+  skills: ["wrestling", "acting", "intimidation"],
+  task: "Leads the charge with overwhelming strength and charisma.",
+  photo: "https://picsum.photos/300/300"
+},
+{
+  name: "Shaquille O'Neal",
+  role: "frontline",
+  skills: ["basketball", "comedy", "size"],
+  task: "Uses his size and humor to confuse and intimidate the gorilla.",
+  photo: "https://picsum.photos/300/300"
+},
+{
+  name: "Mike Tyson",
+  role: "frontline",
+  skills: ["boxing", "biting"],
+  task: "Throws powerful punches and uses his biting tactics to fend off attacks.",
+  photo: "https://example.com/photos/mike_tyson.jpg"
+},
+{
+  name: "John Cena",
+  role: "frontline",
+  skills: ["wrestling", "acting", "strength"],
+  task: "Distracts the gorilla with his famous catchphrase and wrestling moves.",
+  photo: "https://example.com/photos/john_cena.jpg"
+},
+{
+  name: "Jason Momoa",
+  role: "frontline",
+  skills: ["acting", "intensity", "fighting"],
+  task: "Channels Aquaman’s fierceness to intimidate the beast.",
+  photo: "https://example.com/photos/jason_momoa.jpg"
+},
+{
+  name: "Terry Crews",
+  role: "frontline",
+  skills: ["acting", "strength", "enthusiasm"],
+  task: "Charges with unstoppable energy and muscle power.",
+  photo: "https://example.com/photos/terry_crews.jpg"
+},
+{
+  name: "Chris Hemsworth",
+  role: "frontline",
+  skills: ["acting", "combat", "godly strength"],
+  task: "Wields his 'Thor' hammer stance to intimidate and attack.",
+  photo: "https://example.com/photos/chris_hemsworth.jpg"
+},
+{
+  name: "Dave Bautista",
+  role: "frontline",
+  skills: ["wrestling", "acting", "muscle"],
+  task: "Uses brute strength and wrestling skills to hold the line.",
+  photo: "https://example.com/photos/dave_bautista.jpg"
+},
+{
+  name: "Zion Williamson",
+  role: "frontline",
+  skills: ["basketball", "strength", "agility"],
+  task: "Jumps and dodges with basketball agility to confuse the gorilla.",
+  photo: "https://example.com/photos/zion_williamson.jpg"
+},
+{
+  name: "Mark Wahlberg",
+  role: "frontline",
+  skills: ["acting", "boxing", "strength"],
+  task: "Delivers sharp boxing combos to keep the gorilla off balance.",
+  photo: "https://example.com/photos/mark_wahlberg.jpg"
+},
+{
+  name: "Brock Lesnar",
+  role: "frontline",
+  skills: ["wrestling", "UFC", "intimidation"],
+  task: "Uses MMA moves and aggression to dominate the fight.",
+  photo: "https://example.com/photos/brock_lesnar.jpg"
+},
+{
+  name: "Khabib Nurmagomedov",
+  role: "frontline",
+  skills: ["wrestling", "submission holds", "strength"],
+  task: "Locks in submission holds to immobilize the gorilla.",
+  photo: "https://example.com/photos/khabib_nurmagomedov.jpg"
+},
+{
+  name: "Conor McGregor",
+  role: "frontline",
+  skills: ["boxing", "bravado", "trash talk"],
+  task: "Taunts the gorilla to create openings for attack.",
+  photo: "https://example.com/photos/conor_mcgregor.jpg"
+},
+{
+  name: "Chuck Norris",
+  role: "frontline",
+  skills: ["martial arts", "strength", "legendary status"],
+  task: "Uses legendary martial arts skills to intimidate and fight.",
+  photo: "https://example.com/photos/chuck_norris.jpg"
+},
+{
+  name: "Ronda Rousey",
+  role: "frontline",
+  skills: ["UFC", "judo", "strength"],
+  task: "Throws precise judo throws to control the gorilla’s movements.",
+  photo: "https://example.com/photos/ronda_rousey.jpg"
+},
+{
+  name: "Hulk Hogan",
+  role: "frontline",
+  skills: ["wrestling", "entertainment", "strength"],
+  task: "Rallies the team with loud cheers and powerful wrestling.",
+  photo: "https://example.com/photos/hulk_hogan.jpg"
+},
+{
+  name: "Ricky Gervais",
+  role: "frontline",
+  skills: ["comedy", "sarcasm", "quick wit"],
+  task: "Distracts the gorilla with cutting sarcasm and wit.",
+  photo: "https://example.com/photos/ricky_gervais.jpg"
+},
+{
+  name: "Will Smith",
+  role: "frontline",
+  skills: ["acting", "martial arts", "charm"],
+  task: "Combines charm and martial arts to confuse the gorilla.",
+  photo: "https://example.com/photos/will_smith.jpg"
+},
+{
+  name: "Jackie Chan",
+  role: "frontline",
+  skills: ["martial arts", "stunts", "speed"],
+  task: "Uses acrobatic stunts and fast moves to evade attacks.",
+  photo: "https://example.com/photos/jackie_chan.jpg"
+},
+{
+  name: "Vin Diesel",
+  role: "frontline",
+  skills: ["acting", "strength", "determination"],
+  task: "Uses sheer determination and strength to hold ground.",
+  photo: "https://example.com/photos/vin_diesel.jpg"
+},
+{
+  name: "Harrison Ford",
+  role: "frontline",
+  skills: ["acting", "marksmanship", "adventure"],
+  task: "Shoots precision shots to scare the gorilla without harm.",
+  photo: "https://example.com/photos/harrison_ford.jpg"
+},
+{
+  name: "Gal Gadot",
+  role: "frontline",
+  skills: ["acting", "combat", "agility"],
+  task: "Uses Wonder Woman’s combat skills to fend off the beast.",
+  photo: "https://example.com/photos/gal_gadot.jpg"
+},
+{
+  name: "Jason Statham",
+  role: "frontline",
+  skills: ["combat", "stunts", "toughness"],
+  task: "Delivers tough fight moves to keep the gorilla at bay.",
+  photo: "https://example.com/photos/jason_statham.jpg"
+},
+{
+  name: "Tom Hardy",
+  role: "frontline",
+  skills: ["acting", "combat", "intensity"],
+  task: "Channels intense focus to outmaneuver the gorilla.",
+  photo: "https://example.com/photos/tom_hardy.jpg"
+},
+{
+  name: "Michelle Rodriguez",
+  role: "frontline",
+  skills: ["acting", "fighting", "toughness"],
+  task: "Uses street-fighting skills to engage the gorilla.",
+  photo: "https://example.com/photos/michelle_rodriguez.jpg"
+}
+,
   {
     name: "Michelle Rodriguez",
     role: "frontline",
