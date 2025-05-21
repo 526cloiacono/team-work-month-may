@@ -5,91 +5,91 @@ const gorillaBattleRoster = [
   role: "frontline",
   skills: ["wrestling", "acting", "intimidation"],
   task: "Leads the charge with overwhelming strength and charisma.",
-  photo: "https://picsum.photos/300/300"
+  photo: "img/The_Rock_WWE.webp"
 },
 {
   name: "Shaquille O'Neal",
   role: "frontline",
   skills: ["basketball", "comedy", "size"],
   task: "Uses his size and humor to confuse and intimidate the gorilla.",
-  photo: "https://picsum.photos/300/300"
+  photo: "/img/shaq.jpg"
 },
 {
   name: "Mike Tyson",
   role: "frontline",
   skills: ["boxing", "biting"],
   task: "Throws powerful punches and uses his biting tactics to fend off attacks.",
-  photo: "https://example.com/photos/mike_tyson.jpg"
+  photo: "img/tyson.jpg"
 },
 {
   name: "John Cena",
   role: "frontline",
   skills: ["wrestling", "acting", "strength"],
   task: "Distracts the gorilla with his famous catchphrase and wrestling moves.",
-  photo: "https://example.com/photos/john_cena.jpg"
+  photo: "img/John-Cena.webp"
 },
 {
   name: "Jason Momoa",
   role: "frontline",
   skills: ["acting", "intensity", "fighting"],
   task: "Channels Aquaman’s fierceness to intimidate the beast.",
-  photo: "https://example.com/photos/jason_momoa.jpg"
+  photo: "img/Jason-Momoas-Aquaman-Diet-and-Workout-Plan.jpg"
 },
 {
   name: "Terry Crews",
   role: "frontline",
   skills: ["acting", "strength", "enthusiasm"],
   task: "Charges with unstoppable energy and muscle power.",
-  photo: "https://example.com/photos/terry_crews.jpg"
+  photo: "img/terry crews.jpg"
 },
 {
   name: "Chris Hemsworth",
   role: "frontline",
   skills: ["acting", "combat", "godly strength"],
   task: "Wields his 'Thor' hammer stance to intimidate and attack.",
-  photo: "https://example.com/photos/chris_hemsworth.jpg"
+  photo: "img/Chris Hemsworth.jpg"
 },
 {
   name: "Dave Bautista",
   role: "frontline",
   skills: ["wrestling", "acting", "muscle"],
   task: "Uses brute strength and wrestling skills to hold the line.",
-  photo: "https://example.com/photos/dave_bautista.jpg"
+  photo: "img/wwe-dave-bautista-royal-rumble.jpg"
 },
 {
   name: "Zion Williamson",
   role: "frontline",
   skills: ["basketball", "strength", "agility"],
   task: "Jumps and dodges with basketball agility to confuse the gorilla.",
-  photo: "https://example.com/photos/zion_williamson.jpg"
+  photo: "img/14nba-zion-pelicans-1-mediumSquareAt3X.jpg"
 },
 {
   name: "Mark Wahlberg",
   role: "frontline",
   skills: ["acting", "boxing", "strength"],
   task: "Delivers sharp boxing combos to keep the gorilla off balance.",
-  photo: "https://example.com/photos/mark_wahlberg.jpg"
+  photo: "img/mark-wahlberg.webp"
 },
 {
   name: "Brock Lesnar",
   role: "frontline",
   skills: ["wrestling", "UFC", "intimidation"],
   task: "Uses MMA moves and aggression to dominate the fight.",
-  photo: "https://example.com/photos/brock_lesnar.jpg"
+  photo: "img/BrockLesnar.webp"
 },
 {
   name: "Khabib Nurmagomedov",
   role: "frontline",
   skills: ["wrestling", "submission holds", "strength"],
   task: "Locks in submission holds to immobilize the gorilla.",
-  photo: "https://example.com/photos/khabib_nurmagomedov.jpg"
+  photo: "img/KhabibNurmagomedov.jpg"
 },
 {
   name: "Conor McGregor",
   role: "frontline",
   skills: ["boxing", "bravado", "trash talk"],
   task: "Taunts the gorilla to create openings for attack.",
-  photo: "https://example.com/photos/conor_mcgregor.jpg"
+  photo: "img/Mcgregor.jpg"
 },
 {
   name: "Chuck Norris",
