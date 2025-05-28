@@ -1,6 +1,230 @@
-#rosterGrid{
-border-radius: 25px;
-    color: black;
-    margin: 15px;
-    text-align: center;
+:root {
+  --gorilla-gray: #333333;
+  --gorilla-accent: #4d4d4d;
+  --jungle-green: #2e8b57;
+}
+
+body {
+  margin: 0;
+  font-family: "futura-pt", sans-serif;
+  overflow-x: hidden;
+  transition: background 0.5s ease;
+  background-color: #1e1e1e;
+}
+
+/* Flex-center wrapper */
+#landing-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+/* Logo animation */
+#landing-logo {
+  width: clamp(120px, 25vw, 240px);
+  height: auto;
+  animation: popIn 0.9s ease-out;
+}
+
+@keyframes popIn {
+  0% { transform: scale(0.6); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* Greeting text */
+#greeting {
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  margin-top: 1rem;
+  animation: fadeIn 1s ease-out;
+  color: #f2f2f2;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Button section */
+#button-wrapper {
+  margin-top: 1.5rem;
+}
+
+.enter-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #4d4d4d;
+  border: none;
+  border-radius: 12px;
+  text-decoration: none;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.enter-button:hover {
+  background-color: #2e2e2e;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+/* Backgrounds by time of day — gorilla/jungle themed */
+body.morning {
+  background: linear-gradient(135deg, #dcdcdc 0%, #f0f0f0 100%);
+  color: var(--gorilla-gray);
+}
+
+body.afternoon {
+  background: linear-gradient(135deg, #c0c0c0 0%, #d9d9d9 100%);
+  color: var(--gorilla-gray);
+}
+
+body.evening {
+  background: linear-gradient(135deg, #2f2f2f 0%, #1c1c1c 100%);
+  color: #f0f0f0;
+}
+
+body.night {
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  color: #e0e0e0;
+}
+
+
+
+
+/* roster  */
+body {
+  background-color: #1c1c1c;
+  color: #f0f0f0;
+  font-family: "futura-pt", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+header .navbar {
+  background-color: #2f2f2f !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand,
+.nav-link {
+  color: #f0f0f0 !important;
+  font-weight: bold;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #2e8b57 !important;  /* jungle green accent */
+}
+
+main.container {
+  margin-top: 2rem;
+}
+
+/* Roster grid */
+#rosterGrid {
+  padding: 1rem;
+}
+
+/* Card style for each person */
+.card {
+  background-color: #3d3d3d;
+  color: #f0f0f0;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.5);
+}
+
+.card-body {
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #cccccc;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #2f2f2f;
+  color: #f0f0f0;
+  margin-top: 2rem;
+}
+
+.modal-backdrop {
+  background-color: rgba(28, 28, 28, 0.6);
+}
+
+/* Modal content */
+.modal-content {
+  background-color: #3d3d3d;
+  color: #f0f0f0;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Modal header */
+.modal-header {
+  background-color: #2f2f2f;
+  border-bottom: 1px solid #2e8b57;
+  color: #2e8b57;
+}
+
+/* Modal body */
+.modal-body {
+  background-color: #3d3d3d;
+  color: #ddd;
+}
+
+/* Modal footer */
+.modal-footer {
+  background-color: #2f2f2f;
+  border-top: 1px solid #2e8b57;
+}
+
+/* Themed primary button */
+.btn-primary {
+  background-color: #2e8b57;
+  border-color: #2e8b57;
+  color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #246b44;
+  border-color: #246b44;
+  color: #fff;
+  box-shadow: none;
+  outline: none;
+}
+
+/* Modal scroll */
+.modal-dialog {
+  max-height: 90vh;
+  overflow-y: auto;
 }
