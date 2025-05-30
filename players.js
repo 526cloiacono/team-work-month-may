@@ -96,91 +96,92 @@ const gorillaBattleRoster = [
   role: "frontline",
   skills: ["martial arts", "strength", "legendary status"],
   task: "Uses legendary martial arts skills to intimidate and fight.",
-  photo: "https://example.com/photos/chuck_norris.jpg"
+  photo: "img/noris.jpg"
 },
 {
   name: "Ronda Rousey",
   role: "frontline",
   skills: ["UFC", "judo", "strength"],
   task: "Throws precise judo throws to control the gorilla’s movements.",
-  photo: "https://example.com/photos/ronda_rousey.jpg"
+  photo: "img/ronda+rousey.jpg"
 },
 {
   name: "Hulk Hogan",
   role: "frontline",
   skills: ["wrestling", "entertainment", "strength"],
   task: "Rallies the team with loud cheers and powerful wrestling.",
-  photo: "https://example.com/photos/hulk_hogan.jpg"
+  photo: "img/wwe-hulk-hogan.jpg"
 },
 {
   name: "Ricky Gervais",
   role: "frontline",
   skills: ["comedy", "sarcasm", "quick wit"],
   task: "Distracts the gorilla with cutting sarcasm and wit.",
-  photo: "https://example.com/photos/ricky_gervais.jpg"
+  photo: "img/RickyGervais.webp"
 },
 {
   name: "Will Smith",
   role: "frontline",
   skills: ["acting", "martial arts", "charm"],
   task: "Combines charm and martial arts to confuse the gorilla.",
-  photo: "https://example.com/photos/will_smith.jpg"
+  photo: "img/willSmith.webp"
 },
 {
   name: "Jackie Chan",
   role: "frontline",
   skills: ["martial arts", "stunts", "speed"],
   task: "Uses acrobatic stunts and fast moves to evade attacks.",
-  photo: "https://example.com/photos/jackie_chan.jpg"
+  photo: "img/JackieChan.jpg"
 },
 {
   name: "Vin Diesel",
   role: "frontline",
   skills: ["acting", "strength", "determination"],
   task: "Uses sheer determination and strength to hold ground.",
-  photo: "https://example.com/photos/vin_diesel.jpg"
+  photo: "img/VinDiesel.webp"
 },
 {
   name: "Harrison Ford",
   role: "frontline",
   skills: ["acting", "marksmanship", "adventure"],
   task: "Shoots precision shots to scare the gorilla without harm.",
-  photo: "https://example.com/photos/harrison_ford.jpg"
+  photo: "img/HarrisonFord.jpg"
 },
 {
   name: "Gal Gadot",
   role: "frontline",
   skills: ["acting", "combat", "agility"],
   task: "Uses Wonder Woman’s combat skills to fend off the beast.",
-  photo: "https://example.com/photos/gal_gadot.jpg"
+  photo: "img/GalGadot.webp"
 },
 {
   name: "Jason Statham",
   role: "frontline",
   skills: ["combat", "stunts", "toughness"],
   task: "Delivers tough fight moves to keep the gorilla at bay.",
-  photo: "https://example.com/photos/jason_statham.jpg"
+  photo: "img/JasonStatham.jpg"
 },
 {
   name: "Tom Hardy",
   role: "frontline",
   skills: ["acting", "combat", "intensity"],
   task: "Channels intense focus to outmaneuver the gorilla.",
-  photo: "https://example.com/photos/tom_hardy.jpg"
+  photo: "img/tom-hardy-warrior-mc-220922-bf09e0.jpg"
 },
 {
   name: "Michelle Rodriguez",
   role: "frontline",
   skills: ["acting", "fighting", "toughness"],
   task: "Uses street-fighting skills to engage the gorilla.",
-  photo: "https://example.com/photos/michelle_rodriguez.jpg"
+  photo: "img/michelle-rodriguez-99.webp"
 }
 ,
   {
-    name: "Michelle Rodriguez",
+    name: "Chris Bumstead",
     role: "frontline",
-    skills: ["acting", "fighting", "toughness"],
-    task: "Uses street-fighting skills to engage the gorilla.",
+    skills: ["Body Builder", "strong", "toughness"],
+    task: "Hes just big and on a bunch of caffieen.",
+     photo: "img/cbum.jpg"
   },
 
   // Midline (30)
@@ -189,48 +190,56 @@ const gorillaBattleRoster = [
     role: "midline",
     skills: ["cooking", "yelling", "insults"],
     task: "Yells at the gorilla with such intensity it momentarily freezes.",
+     photo: "img/gordongramcover-image-LOOKING-TO-CAMERA-d359257.jpg"
   },
   {
     name: "Joe Rogan",
     role: "midline",
     skills: ["commentary", "taekwondo", "podcasting"],
     task: "Provides live commentary to confuse the gorilla’s focus.",
+     photo: "img/rogan.jpg"
   },
   {
     name: "Keanu Reeves",
     role: "midline",
     skills: ["acting", "martial arts", "being cool"],
     task: "Uses Matrix-style moves to dodge and distract.",
+      photo: "img/KeanuReeves.webp"
   },
   {
     name: "Ryan Reynolds",
     role: "midline",
     skills: ["acting", "comedy", "quick wit"],
     task: "Cracks jokes to lighten the mood and distract the gorilla.",
+      photo: "img/RyanReynolds.jpg"
   },
   {
     name: "Jack Black",
     role: "midline",
     skills: ["comedy", "music", "acting"],
     task: "Performs comedic songs to confuse and charm.",
+      photo: "img/Jack-Black-as-Steve-looks-at-some-ore-in-A-Minecraft-Movie.webp"
   },
   {
     name: "Will Ferrell",
     role: "midline",
     skills: ["comedy", "acting", "awkwardness"],
     task: "Uses awkward humor to disarm the gorilla.",
+      photo: "img/WillFerrell.jpg"
   },
   {
     name: "Kevin Hart",
     role: "midline",
     skills: ["comedy", "acting", "motivation"],
     task: "Motivates the team with energetic pep talks.",
+      photo: "img/KevinHart.jpg"
   },
   {
     name: "Danny DeVito",
     role: "midline",
     skills: ["comedy", "acting", "being unpredictable"],
     task: "Distracts the gorilla with unpredictable antics.",
+    photo: "img/danydivito.jpg"
   },
   {
     name: "Post Malone",
