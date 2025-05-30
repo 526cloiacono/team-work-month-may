@@ -246,12 +246,14 @@ const gorillaBattleRoster = [
     role: "midline",
     skills: ["music", "vibes", "chill"],
     task: "Creates chill vibes to calm tensions.",
+    photo: "img/malone-post-image.webp"
   },
   {
     name: "Snoop Dogg",
     role: "midline",
     skills: ["rapping", "chilling", "strategizing"],
     task: "Raps to confuse and strategize the team’s moves.",
+      photo: "img/snoop.jpg"
   },
   {
     name: "Chris Pratt",
